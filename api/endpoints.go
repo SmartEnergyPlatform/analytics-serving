@@ -17,12 +17,12 @@
 package api
 
 import (
+	"analytics-serving/lib"
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"serving-service/lib"
 
-	"serving-service/manage"
+	"analytics-serving/manage"
 
 	"strings"
 

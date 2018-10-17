@@ -17,12 +17,12 @@
 package main
 
 import (
+	"analytics-serving/api"
 	"log"
-	"serving-service/api"
 
-	"serving-service/db"
+	"analytics-serving/db"
 
-	"serving-service/model"
+	"analytics-serving/model"
 
 	"github.com/joho/godotenv"
 )

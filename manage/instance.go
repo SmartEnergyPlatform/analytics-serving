@@ -17,11 +17,11 @@
 package manage
 
 import (
+	"analytics-serving/db"
+	"analytics-serving/lib"
+	"analytics-serving/model"
+	"analytics-serving/rancher-api"
 	"log"
-	"serving-service/db"
-	"serving-service/lib"
-	"serving-service/model"
-	"serving-service/rancher-api"
 
 	"fmt"
 

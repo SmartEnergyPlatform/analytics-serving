@@ -17,8 +17,8 @@
 package db
 
 import (
+	"analytics-serving/lib"
 	"fmt"
-	"serving-service/lib"
 
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"

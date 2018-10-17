@@ -17,7 +17,7 @@
 package model
 
 import (
-	"serving-service/db"
+	"analytics-serving/db"
 
 	"fmt"
 

@@ -17,10 +17,10 @@
 package api
 
 import (
+	"analytics-serving/lib"
 	"fmt"
 	"log"
 	"net/http"
-	"serving-service/lib"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"

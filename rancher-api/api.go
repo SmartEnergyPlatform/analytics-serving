@@ -17,11 +17,11 @@
 package rancher_api
 
 import (
+	"analytics-serving/lib"
 	"fmt"
 	"net/http"
-	"serving-service/lib"
 
-	"serving-service/model"
+	"analytics-serving/model"
 
 	"github.com/parnurzeal/gorequest"
 )
