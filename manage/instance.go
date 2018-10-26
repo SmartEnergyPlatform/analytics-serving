@@ -41,7 +41,7 @@ func CreateInstance(req lib.ServingRequest, userId string) {
 		EntityName:  req.EntityName,
 		ServiceName: req.ServiceName,
 		Topic:       req.Topic,
-		Filter:      req.FilterId,
+		Filter:      req.Filter,
 		FilterType:  req.FilterType,
 		UserId:      userId,
 		Database:    userId,
