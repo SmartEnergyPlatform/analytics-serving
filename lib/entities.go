@@ -21,19 +21,19 @@ type Response struct {
 }
 
 type ServingRequest struct {
-	FilterType  string  `json:"filter_type,omitempty"`
-	FilterId    string  `json:"filter_id,omitempty"`
-	Name        string  `json:"name,omitempty"`
-	EntityName  string  `json:"entity_name,omitempty"`
-	ServiceName string  `json:"service_name,omitempty"`
-	Description string  `json:"description,omitempty"`
-	Topic       string  `json:"topic,omitempty"`
-	TimePath    string  `json:"timePath,omitempty"`
-	Values      []Value `json:"values,omitempty"`
+	FilterType  string  `json:"FilterType,omitempty"`
+	FilterId    string  `json:"FilterId,omitempty"`
+	Name        string  `json:"Name,omitempty"`
+	EntityName  string  `json:"EntityName,omitempty"`
+	ServiceName string  `json:"ServiceName,omitempty"`
+	Description string  `json:"Description,omitempty"`
+	Topic       string  `json:"Topic,omitempty"`
+	TimePath    string  `json:"TimePath,omitempty"`
+	Values      []Value `json:"Values,omitempty"`
 }
 
 type Value struct {
-	Name string `json:"name,omitempty"`
-	Type string `json:"type,omitempty"`
-	Path string `json:"path,omitempty"`
+	Name string `json:"Name,omitempty"`
+	Type string `json:"Type,omitempty"`
+	Path string `json:"Path,omitempty"`
 }
