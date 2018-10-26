@@ -22,7 +22,7 @@ type Response struct {
 
 type ServingRequest struct {
 	FilterType  string  `json:"FilterType,omitempty"`
-	FilterId    string  `json:"FilterId,omitempty"`
+	Filter      string  `json:"Filter,omitempty"`
 	Name        string  `json:"Name,omitempty"`
 	EntityName  string  `json:"EntityName,omitempty"`
 	ServiceName string  `json:"ServiceName,omitempty"`
